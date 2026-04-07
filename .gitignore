@@ -8,6 +8,7 @@ build/        # Gradle 构建输出目录
 *.iml         # IntelliJ IDEA 模块文件
 *.iws
 *.ipr
+*.xml
 .project      # Eclipse 项目文件
 .classpath    # Eclipse 类路径文件
 .settings/    # Eclipse 设置目录

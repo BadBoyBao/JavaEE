@@ -3,7 +3,7 @@ package com.xpxp233.Collection;
 
 import java.util.ArrayList;
 import java.util.Collection;
-import java.util.Iterator;
+import java.util.function.Consumer;
 
 /**
  * 😊😊😊😊😊😊😊😊😊😊😊😊
@@ -12,9 +12,9 @@ import java.util.Iterator;
  * @file CollectionTraversalDemo
  * @date 2026/04/08  12:03
  **/
-public class CollectionTraversalDemo2 {
+public class CollectionTraversalDemo3 {
     public static void main(String[] args) {
-       // 目标:掌握Collection集合的遍历方式2:增强for
+       // 目标:掌握Collection集合的遍历方式3:Lambda表达式
         Collection<String> list = new ArrayList<>();
         list.add("张无忌");
         list.add("周芷若");
@@ -22,13 +22,7 @@ public class CollectionTraversalDemo2 {
         list.add("张强");
         list.add("张三丰");
         list.add("殷素素");
-        for (String s : list) {
-            System.out.println(s);
-        }
-        String[] names = {"张无忌", "周芷若", "赵敏", "张强", "张三丰", "殷素素"};
-        for (String name : names) {
-            System.out.println(name);
-        }
+        list.forEach(System.out::println);
 
     }
 }

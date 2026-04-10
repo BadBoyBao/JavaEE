@@ -1,10 +1,25 @@
 package com.xpxp233.DTO;
 
 
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
 /**
  * 😊😊😊😊😊😊😊😊😊😊😊😊
- * @file Movie
+ *
  * @author thexpxp233
+ * @file Movie
  * @date 2026/04/08  21:24
-**/public class Movie {
+ **/
+
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
+public class Movie {
+    private String name;
+    private double score;
+    private String actor;
+    private double price;
+
 }

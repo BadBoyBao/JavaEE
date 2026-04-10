@@ -3,6 +3,7 @@ package com.xpxp233.List;
 
 import java.util.ArrayList;
 import java.util.Iterator;
+import java.util.LinkedList;
 import java.util.List;
 
 /**
@@ -12,10 +13,10 @@ import java.util.List;
  * @file ListDemo
  * @date 2026/04/08  17:38
  **/
-public class ListDemo {
+public class ArrayListDemo {
     public static void main(String[] args) {
         // 目标:掌握List集合的常用方法
-        List<String> list = new ArrayList<>();
+        ArrayList<String> list = new ArrayList<>();
         list.add("张无忌");
         list.add("周芷若");
         list.add("赵敏");

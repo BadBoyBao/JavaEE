@@ -3,8 +3,10 @@ package com.xpxp233.GenericityDemo03.DTO;
 
 /**
  * 😊😊😊😊😊😊😊😊😊😊😊😊
- * @file XiaoMi
+ *
  * @author thexpxp233
+ * @file XiaoMi
  * @date 2026/04/07  18:54
-**/public class XiaoMi {
+ **/
+public class XiaoMi extends Car{
 }

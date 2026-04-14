@@ -1,0 +1,5 @@
+GC:垃圾回收
+JVM:Java虚拟机
+RabbitMQ消息队列
+数据库Mysql
+我爱你gc666g

@@ -44,6 +44,13 @@ public class WriterDemo {
 
             // 5.写一个数组一部分出去,public void write(char[] cbuf, int off, int len)
             wr.write(chars , 1 , 2);
+
+            wr.flush(); //  刷新缓冲区,将数据全部写入到目的地中
+            System.out.println("写入完成");
+            wr.close(); // 关闭流
+            System.out.println("关闭完成");
+
+            // 有一种情况不用写关闭流,就是使用try-with-resource.
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
